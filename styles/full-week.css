@@ -1,8 +1,18 @@
+header {
+  margin-bottom: 64px;
+}
 h1 {
   font-size: 48px;
   color: rgb(71, 62, 72);
   margin: 12px 0px;
 }
+#description {
+  margin-bottom: 36px;
+}
+
+/* header p {
+  margin-bottom: 36px;
+} */
 
 a {
   padding: 12px 48px;
@@ -26,7 +36,19 @@ ol {
 }
 li {
   padding: 16px;
-    margin: 32px;
+  margin: 32px;
   background-color: rgb(233, 136, 124);
   border-radius: 6px;
+}
+h2 {
+  color: rgb(78, 13, 5);
+  font-family: "Oswald", sans-serif;
+}
+
+main p {
+  margin: 12px;
+  color: rgb(79, 21, 22);
+}
+.highlight-goal {
+  background-color: rgb(226, 115, 101);
 }
