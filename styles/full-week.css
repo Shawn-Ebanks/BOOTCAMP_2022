@@ -4,10 +4,10 @@ header {
 h1 {
   font-size: 48px;
   color: rgb(71, 62, 72);
-  margin: 12px 0px;
+  margin: 0px;
 }
 #description {
-  margin-bottom: 36px;
+  margin: 12px 0;
 }
 
 /* header p {
@@ -21,6 +21,8 @@ a {
   border: 1px solid rgb(167, 1, 78);
   border-radius: 4px;
   font-size: 24px;
+  display: inline-block;
+  margin: 0;
 }
 
 a:hover {
@@ -36,9 +38,11 @@ ol {
 }
 li {
   padding: 16px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
   margin: 32px;
   background-color: rgb(233, 136, 124);
   border-radius: 6px;
+
 }
 h2 {
   color: rgb(78, 13, 5);
